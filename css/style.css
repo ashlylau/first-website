@@ -1,0 +1,115 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline-block;
+  padding: 0, 10px, 0, 10px;
+}
+
+header li a{
+  padding: 10px 5px;
+}
+
+header #name{
+  float: left;
+  padding: 0, 10px, 0, 10px;
+}
+
+header #name h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 12px;
+}
+
+header .current a{
+  color: #4286f4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+/*Contact*/
+#contact{
+  margin-top: 50px;
+  min-height: 100px;
+}
+
+#contact a{
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+#contact a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+/*webcontent*/
+#webcontent h1{
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+#webcontent h3{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+#webcontent p{
+  font-size: 14px;
+}
+#webcontent ul{
+  font-size: 13px;
+  color: #636972;
+}
+
+
+
+/*footer*/
+footer{
+  margin-top: 30px;
+  font-size: 13px;
+}
